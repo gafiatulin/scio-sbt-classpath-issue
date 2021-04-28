@@ -4,6 +4,8 @@ version := "0.1"
 
 scalaVersion := "2.12.13"
 
+crossScalaVersions := Seq("2.12.12", "2.12.13")
+
 lazy val root = project
   .in(file("."))
   .configs(IntegrationTest)
